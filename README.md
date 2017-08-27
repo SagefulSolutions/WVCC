@@ -1,5 +1,4 @@
 # West Virginia Local Currency
-West Virginia Local Currency
 Justin M. Waugh | @cryptosage
 8/27/2017
 
