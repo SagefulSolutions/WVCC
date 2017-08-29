@@ -14,7 +14,7 @@ Mowing
 Nanny
 Weedeating
 
-[b]Business Services[/b]
+Business Services
 ----------------
 Accounting
 Computer Repair
