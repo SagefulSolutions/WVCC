@@ -6,18 +6,18 @@ Justin M. Waugh | @cryptosage
 Home Services
 ----------------
 
-*Grocery Delivery
-*House Cleaning
-*In-Home Elderly Care
-*Landscaping
-*Mowing
-*Nanny
-*Weedeating
+* Grocery Delivery
+* House Cleaning
+* In-Home Elderly Care
+* Landscaping
+* Mowing
+* Nanny
+* Weedeating
 
 Business Services
 ----------------
-*Accounting
-*Computer Repair
-*Computer & Device Networking
-*Custom one-color vinyl decals
-*Heating, Ventilation and Air Conditioning
+* Accounting
+* Computer Repair
+* Computer & Device Networking
+* Custom one-color vinyl decals
+* Heating, Ventilation and Air Conditioning
