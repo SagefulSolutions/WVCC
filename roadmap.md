@@ -10,34 +10,37 @@ September 2017
 * Host at least one Google Hangout or be a guest on a podcast
 * Integrate WVCC into ConnectLC
 * Have 10 people holding WVCC balances
-* Have 3 people accepting WVCC for something
+* Have 3 people listed in the directory accepting WVCC for something
 
 October 2017
 ----------------
 
-*
+* Have 15 people holding WVCC balances
+* Have 5 people listed in the directory accepting WVCC for something
+
 
 November 2017
 ----------------
 
-*
+* Have 20 people holding WVCC balances
+* Have 8 people listed in the directory accepting WVCC for something
+
 
 December 2017
 ----------------
 
-*
+* Have 25 people holding WVCC balances
+* Have 10 people listed in the directory accepting WVCC for something
+
 
 January 2018
 ----------------
 
-*
+* Have 30 people holding WVCC balances
+* Have 12 people listed in the directory accepting WVCC for something
 
 February 2018
 ----------------
 
-*
-
-March 2018
-----------------
-
-*
+* Have 32 people holding WVCC balances
+* Have 15 people listed in the directory accepting WVCC for something
