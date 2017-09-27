@@ -1,0 +1,31 @@
+//Syntax
+js.CreateTable(DataArr,Columns)
+
+
+//Example
+
+var DataArr =
+[
+   {user_name:'awesomefunctions',site:'http://awesomefunctions.com'},
+   {user_name:'codewithmark',site:'http://codewithmark.com'},
+   {user_name:'google',site:'http://google.com'},
+]
+
+//Method 1 - No custom columns
+
+//Will create and return table data
+var tbl = js.CreateTable(DataArr);
+
+//Out put table
+$('.mytablediv').html(tbl);
+
+
+//Method 2 - With custom columns
+
+//Will create and return table data
+var Columns = ["Names", "Sites"];
+
+var tbl = js.CreateTable(DataArr,Columns);
+
+//Out put table
+$('.mytablediv').html(tbl);

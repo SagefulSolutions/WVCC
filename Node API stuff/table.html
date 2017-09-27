@@ -1,0 +1,49 @@
+<html>
+<head>
+
+<!--Awesome Functions-->
+<script src="https://awesomefunctions.com/cdn/awesome-functions.min.js"></script>
+
+<!--BOOTSTRAP-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"></script>
+
+<!--JQUERY-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<body>
+<script>
+//Syntax
+js.CreateTable(DataArr,Columns)
+
+
+//Example
+
+var DataArr =
+[
+   {user_name:'awesomefunctions',site:'http://awesomefunctions.com'},
+   {user_name:'codewithmark',site:'http://codewithmark.com'},
+   {user_name:'google',site:'http://google.com'},
+]
+
+//Method 1 - No custom columns
+
+//Will create and return table data
+var tbl = js.CreateTable(DataArr);
+
+//Out put table
+$('.mytablediv').html(tbl);
+
+
+//Method 2 - With custom columns
+
+//Will create and return table data
+var Columns = ["Names", "Sites"];
+
+var tbl = js.CreateTable(DataArr,Columns);
+
+//Out put table
+$('.mytablediv').html(tbl);
+</script>
+
+</body>
+</html>

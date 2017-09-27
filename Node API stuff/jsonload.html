@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery-3.2.1.js"></script>
+
+
+<script>
+$(document).ready(function()
+{
+      $("button").click(function()
+      {
+            $.getJSON('http://127.0.0.1:6869/assets/GFHreVUg1MPoyooPu1ZaDv3AevKZ2sbmFuAK69AE37dZ/distribution', function(result)
+            {
+              $.each(result, function(address, balance)
+              {
+                  $("div").append("<br> " + result + address + " : " + balance + " <br> ");
+              });
+            });
+      });
+});
+</script>
+
+
+</head>
+<body>
+
+<button id="dist">Get WVCC Distribution Data</button>
+
+<br>
+
+<button id="PeersConnected">GET PEER INFO</button>
+
+
+<div></div>
+
+</body>
+</html>
