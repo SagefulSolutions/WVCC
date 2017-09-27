@@ -11,6 +11,8 @@
           {
                 $.getJSON('http://74.40.210.81/assets/GFHreVUg1MPoyooPu1ZaDv3AevKZ2sbmFuAK69AE37dZ/distribution', function(result)
                 {
+                      //SETS THE TABLE HEADING CORRECTLY AND KEEPS TABLE FROM BEING REPOPULATED WITH REPEATED DATA
+                  $("table").html("<td><strong>ADDRESS</strong></td><td><strong>WVCC UNITS</strong></td>")
                   $.each(result, function(address, balance)
                  {
                       // TAKES ADDRESSES + BALANCES AND PUTS THEM INTO A TABLE (PROUD OF MYSELF FIGURING THIS OUT!! (9/27/17 @ 215am))
@@ -33,7 +35,7 @@
 <hr>
 <div></div>
 <center>
-  <h1>WVCC Distribution by address</h1>
+  <h1><font color="blue">W</font><font color="gold">V</font><font color="blue">C</font><font color="gold">C</font> Distribution by <font color="teal">Address</font></h1>
 <table border="1">
   <tr>
     <td><strong>ADDRESS</strong></td>
