@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!--<script src="./main.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function()
+      {
+      $("button").click(function()
+          {
+                $.getJSON('http://74.40.210.81/assets/GFHreVUg1MPoyooPu1ZaDv3AevKZ2sbmFuAK69AE37dZ/distribution', function(result)
+                {
+                  $.each(result, function(address, balance)
+                 {
+                      // TAKES ADDRESSES + BALANCES AND PUTS THEM INTO A TABLE (PROUD OF MYSELF FIGURING THIS OUT!! (9/27/17 @ 215am))
+                      $("table").append("<tr><td> " + address + " </td>" + " <td> " + balance + " </td> " + "</tr> ");
+                  });
+                });
+          });
+    });
+  </script>
+
+
+    <title></title>
+
+</head>
+
+  <body>
+
+<button id="dist">Get WVCC Distribution Data</button>
+
+<hr>
+<div></div>
+<center>
+  <h1>WVCC Distribution by address</h1>
+<table border="1">
+  <tr>
+    <td><strong>ADDRESS</strong></td>
+    <td><strong>WVCC UNITS</strong></td>
+</table>
+</center>
+  </body>
+</html>
