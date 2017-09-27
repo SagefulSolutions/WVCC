@@ -7,16 +7,16 @@
     <script>
       $(document).ready(function()
       {
-      $("button").click(function()
+      $("#distdatabutton").click(function()
           {
-                $.getJSON('http://74.40.210.81/assets/GFHreVUg1MPoyooPu1ZaDv3AevKZ2sbmFuAK69AE37dZ/distribution', function(result)
+                $.getJSON('http://184.170.115.53:6869/assets/GFHreVUg1MPoyooPu1ZaDv3AevKZ2sbmFuAK69AE37dZ/distribution', function(result)
                 {
                       //SETS THE TABLE HEADING CORRECTLY AND KEEPS TABLE FROM BEING REPOPULATED WITH REPEATED DATA
-                  $("table").html("<td><strong>ADDRESS</strong></td><td><strong>WVCC UNITS</strong></td>")
+                  $("table").html("<td><strong><center>ADDRESS</center></strong></td><td><strong><center>WVCC UNITS</center></strong></td>")
                   $.each(result, function(address, balance)
                  {
                       // TAKES ADDRESSES + BALANCES AND PUTS THEM INTO A TABLE (PROUD OF MYSELF FIGURING THIS OUT!! (9/27/17 @ 215am))
-                      $("table").append("<tr><td> " + address + " </td>" + " <td> " + balance + " </td> " + "</tr> ");
+                      $("table").append("<tr><td> " + address + " </td>" + " <td> <p style=\"text-align:right\"> " + balance + "</p> </td> " + "</tr> ");
                   });
                 });
           });
@@ -30,7 +30,7 @@
 
   <body>
 
-<button id="dist">Get WVCC Distribution Data</button>
+<button id="distdatabutton">Get WVCC Distribution Data</button>
 
 <hr>
 <div></div>
