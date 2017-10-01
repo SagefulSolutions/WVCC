@@ -4,35 +4,63 @@
     <meta charset="utf-8">
     <!--<script src="./main.js"></script>-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script>
-      $(document).ready(function()
-      {
-      $("button").click(function()
-          {
-                $.getJSON('http://184.170.115.53:6869/assets/GFHreVUg1MPoyooPu1ZaDv3AevKZ2sbmFuAK69AE37dZ/distribution', function(result)
-                {
-                  $.each(result, function(address, balance)
-                 {
-                      $("div").append("<br> " + address + " : " + balance + " <br> ");
-                  });
-                });
-          });
+
+<script>
+//Chooses which ARRAY address to display data for
+var balAddr = 1;
+//ALL addresses and balances in one object
+var balanceData = {};
+//Array that gets data from JSON address data
+var arrAdd = [];
+//Array that gets data from JSON balance data
+var arrBal = [];
+//Adjusts the 8 decimal places to get full units without added 8 places
+var unitCorrection = 100000000;
+//Contains current WVCC/USD price (may be able to integrate this with DEX somehow)
+var usdPrice = .000005;
+//Contans current BTC/USD price (may be able to integrate with bitcoinaverage to have it automatically update)
+var btcPrice = 4700;
+    $(document).ready(function(){
+        $("button#dist").click(function(){
+            $.getJSON('http://74.40.210.81/assets/GFHreVUg1MPoyooPu1ZaDv3AevKZ2sbmFuAK69AE37dZ/distribution', function(distData){
+                    balanceData = distData
+                    $.each(distData, function(address, balance){
+                        arrAdd.push(address);
+                        arrBal.push(balance);
+                        $("div#balanceDiv").append("<br> " + address + " : " + balance + " <br> ");
+                    });
+                $("div#MASTERADDRESSBALANCE").append(balanceData["3PDW8Bxf18fjiTf6YVyBVBHi6czCkvSky8v"]/unitCorrection);
+                $("div#verbiage").append("<br>The address <strong>" + arrAdd[balAddr] + "</strong> has <br>");
+                $("div#verbiage").append("<br>" + arrBal[balAddr]/unitCorrection + " WVCC");
+                $("div#verbiage").append("<br>$" + arrBal[balAddr]/unitCorrection*usdPrice + " USD");
+                $("div#verbiage").append("<br>" + arrBal[balAddr]/unitCorrection*usdPrice/btcPrice + " BTC");
+            });
+        });
     });
-  </script>
-
-
+</script>
     <title></title>
   </head>
   <body>
 
-
-
-
 <button id="dist">Get WVCC Distribution Data</button>
 
+<div id="balanceDiv"></div> //Prints all addresses and balances on screen
+<br>
+<div id="verbiage"></div>   //Prints an address and tells the balance in WVCC/USD/BTC
+<br>
+<br>
+<input id="inputAddress">   //Requests an address from the user that they would like to look up
+<button type="iAButton" onclick="myFunction()">Get Balance</button>
 
-<div></div>
+<div id="gotBalance"></div> //Displays the balance information of the address entered in 'inputAddress' button
+
+<script>
+function myFunction() {
 
 
-  </body>
+
+}
+
+<div id="MASTERADDRESSBALANCE"></div>
+</body>
 </html>
