@@ -2,28 +2,11 @@
 Justin M. Waugh | @cryptosage
 8/29/2017
 
-
-September 2017
-----------------
-
-* Create onboarding informational e-packet
-* Host at least one Google Hangout or be a guest on a podcast
-* Integrate WVCC into ConnectLC
-* Have 10 people holding WVCC balances
-* Have 3 people listed in the directory accepting WVCC for something
-
-October 2017
-----------------
-
-* Have 15 people holding WVCC balances
-* Have 5 people listed in the directory accepting WVCC for something
-
-
 November 2017
 ----------------
 
-* Have 20 people holding WVCC balances
-* Have 8 people listed in the directory accepting WVCC for something
+* Have 5 people holding WVCC balances
+* Have 2 people listed in the directory ready to begin accepting WVCC for something
 
 
 December 2017
@@ -45,5 +28,10 @@ January 2018
 February 2018
 ----------------
 
+* Create onboarding informational e-packet
+* Host at least one Google Hangout or be a guest on a podcast
+* Integrate WVCC into ConnectLC
+* Have 10 people holding WVCC balances
+* Have 3 people listed in the directory accepting WVCC for something
 * Have 32 people holding WVCC balances
 * Have 15 people listed in the directory accepting WVCC for something
