@@ -7,7 +7,9 @@ November 2017
 
 * Have 5 people holding WVCC balances
 * Have 2 people listed in the directory ready to begin accepting WVCC for something
-
+* Have one person outside of West Virginia helping us keep the network running by operating a fullnode
+  - May have someone figured out for this. (*crosses fingers*)
+  
 
 December 2017
 ----------------
