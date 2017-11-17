@@ -5,7 +5,7 @@ Justin M. Waugh | @cryptosage
 November 2017
 ----------------
 
-* Have 5 people holding WVCC balances
+* Have 2 people holding WVCC balances
 * Have 2 people listed in the directory ready to begin accepting WVCC for something
 * Have one person outside of West Virginia helping us keep the network running by operating a fullnode
   - May have someone figured out for this. (*crosses fingers*)
@@ -15,24 +15,25 @@ December 2017
 ----------------
 
 * Implement 100,000 coin forging miminimum in fullnode
-* Have 2 full nodes running and forging
-* Have 25 people holding WVCC balances
-* Have 10 people listed in the directory accepting WVCC for something
+* Have 3 full nodes running and forging
+* Have 5 people holding WVCC balances
+* Have 5 people listed in the directory accepting WVCC for something
 
 
 January 2018
 ----------------
 
 * Implement WVCC version of WAVES wallet for chrome
-* Have 30 people holding WVCC balances
-* Have 12 people listed in the directory accepting WVCC for something
+* Have 4 full nodes running and forging
+* Have 8 people holding WVCC balances
+* Have 7 people listed in the directory accepting WVCC for something
 
 February 2018
 ----------------
 
 * Host at least one Google Hangout or be a guest on a podcast
 * Integrate WVCC into ConnectLC
-* Have 10 people holding WVCC balances
+* Have 12 people holding WVCC balances
 * Have 3 people listed in the directory accepting WVCC for something
 
 July 2018
@@ -40,5 +41,5 @@ July 2018
 
 
 * Have help to create onboarding informational e-packet
-* Have 32 people holding WVCC balances
-* Have 15 people listed in the directory accepting WVCC for something
+* Have 36 people holding WVCC balances
+* Have 5 people listed in the directory accepting WVCC for something
