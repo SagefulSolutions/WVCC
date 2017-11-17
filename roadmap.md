@@ -29,6 +29,7 @@ November 2017
 December 2017
 ----------------
 
+* Have 2 full nodes running and forging
 * Have 25 people holding WVCC balances
 * Have 10 people listed in the directory accepting WVCC for something
 
@@ -36,6 +37,8 @@ December 2017
 January 2018
 ----------------
 
+* Implement 100,000 coin forging miminimum in fullnode
+* Implement WVCC version of WAVES wallet for chrome
 * Have 30 people holding WVCC balances
 * Have 12 people listed in the directory accepting WVCC for something
 
