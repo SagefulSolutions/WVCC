@@ -1,4 +1,4 @@
-# West Virginia Crypto Currency Roadmap v0.1
+# West Virginia Crypto Currency Roadmap v0.1.5
 Justin M. Waugh | @cryptosage
 8/29/2017
 
